@@ -16,6 +16,14 @@
                 }
             }
         }
+        
+        stage('Updated by Atul') {
+            steps {
+                script {
+                    echo 'updated by Atul'
+                }
+            }
+        }
 
         stage('Run Container') {
             steps {
