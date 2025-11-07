@@ -20,10 +20,11 @@
         stage('Run Container') {
             steps {
                 script {
-                    dockerImage.run()
+                   dockerImage.run()
                     echo 'Container created'
+		    echo 'saikiran'
                 }
             }
         }
-    }
+ 
 }
