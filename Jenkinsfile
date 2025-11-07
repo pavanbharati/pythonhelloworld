@@ -22,6 +22,14 @@
                 script {
                     dockerImage.run()
                     echo 'Container created'
+	
+	 stage('Updated by Kaustubh') {
+            steps {
+                script {
+                    echo 'updated by Kaustubh'
+                }
+            }
+        }	
                 }
             }
         }
